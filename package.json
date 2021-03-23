@@ -1,19 +1,20 @@
 {
     "name": "workbase",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "An application for storing information about employees",
+    "main": "server.js",
     "scripts": {
         "test": "jest",
         "start": "node server.js",
-        "credentials": "node input-info.js"
+        "credentials": "node input-info.js",
+        "seeds": "node seeds/index.js"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jaderiver62/workbase.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "Nina Cummings",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/jaderiver62/workbase/issues"

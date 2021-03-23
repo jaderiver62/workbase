@@ -1,13 +1,13 @@
 const mysql = require("mysql2");
-const database = require("./db/db.js");
-const inquirerQue = require("./lib/Que.js");
-const { username, pass } = require("./utils/info.js").getCredentials();
+const accessDatabase = require("./db/db.js");
+const inquirerQue = require("./lib/Cue.js");
+const { username, userPassword } = require("./utils/info.js").getInfo();
 
 const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: username,
-    password: pass
+    password: userPassword
 });
 connection.connect(err => {
     if (err) throw err;
@@ -16,6 +16,6 @@ connection.connect(err => {
 
 connection.connect(err => {
     if (err) throw err;
-    database(connection);
+    accessDatabase(connection);
     inquirerQue(connection);
 });
