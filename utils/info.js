@@ -34,7 +34,7 @@ const infoPrompt = () => {
             default: "root"
         }, {
             type: "password",
-            name: "password",
+            name: "pwd",
             message: "MySQL password: "
         }])
         .then(input => saveInfo(input));
