@@ -9,10 +9,6 @@ const connection = mysql.createConnection({
     user: username,
     password: pwd
 });
-connection.connect(err => {
-    if (err) throw err;
-    console.log('connected as id ' + connection.threadId + '\n');
-});
 
 connection.connect(err => {
     if (err) throw err;
