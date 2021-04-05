@@ -1,6 +1,6 @@
 const mysql = require("mysql2");
 const accessDatabase = require("./db/db.js");
-const inquirerQue = require("./lib/Cue.js");
+const inquirerQue = require("./lib/UserPrompt.js");
 const { username, userPassword } = require("./utils/info.js").getInfo();
 
 const connection = mysql.createConnection({
