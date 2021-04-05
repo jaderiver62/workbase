@@ -26,7 +26,7 @@ const readInfo = () => {
 const saveInfo = data => fs.writeFileSync(infoPath, JSON.stringify(data, null, 4));
 
 const infoPrompt = () => {
-    console.log("Enter your MySQL crendentials to build the database  - this infomation is stored in a new file: /utils/userInfo.txt):");
+    console.log("Enter your MySQL credential information to build the database (this infomation will be saved in a new file: /utils/userInfo.txt):");
     return inquirer.prompt([{
             type: "input",
             name: "username",
@@ -34,10 +34,10 @@ const infoPrompt = () => {
             default: "root"
         }, {
             type: "password",
-            name: "pass",
+            name: "password",
             message: "MySQL password: "
         }])
-        .then(answers => saveInfo(answers));
+        .then(input => saveInfo(input));
 };
 
 module.exports = { getInfo, infoPrompt };
