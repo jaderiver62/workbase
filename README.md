@@ -42,7 +42,7 @@ Next, run `node input-info.js` to input your mysql credentials.
 
 Navigate to your workbase folder on your PC in the command line/Git Bash - then run `npm start`.   After that, simply follow the prompts to build and play with your new WorkBase Employee Database!
 
-![Project Usage Image](screenshot)
+![Project Usage Image](lib\images\workbase-screenshot.png)
 [Project Demo Video](video)
 
 ---------------------------------------
