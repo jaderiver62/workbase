@@ -1,7 +1,6 @@
 const mysql = require("mysql2");
 const accessDatabase = require("./db/db.js");
 const inquirerPrompt = require("./lib/userPrompt.js");
-var figlet = require('figlet');
 
 const {
     username,
