@@ -30,7 +30,7 @@ The database built is named employeeDB and it holds data in the following tables
 
 ## Installation
 
-You must have [Node.js]("https://nodejs.org/") and [npm]("https://www.npmjs.com/") installed before you continue.
+You must have Node.js and npm installed before you continue.
 
 To install WorkBase, clone the repo.  Then navigate to workbase's folder in your command line/Git Bash terminal.  Once there, run `npm install`.
 
@@ -44,7 +44,7 @@ Navigate to your workbase folder on your PC in the command line/Git Bash - then 
 
 ![Project Usage Image](lib/images/workbase-screenshot.png)
 
-[Demo Video]("https://drive.google.com/file/d/1RQNqbNeeJLR6s66grGOqQQUpYEM8dH0c/view")
+[Demo](https://drive.google.com/file/d/1RQNqbNeeJLR6s66grGOqQQUpYEM8dH0c/view)
 
 ---------------------------------------
 
